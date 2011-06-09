@@ -74,7 +74,7 @@ Parse configuration file C<$config_file>.
 
 L<Mojolicious::Plugin::JsonConfig>
 
-=haed1 AUTHOR
+=head1 AUTHOR
 
 Sergey Zasenko, C<undef@cpan.org>.
 

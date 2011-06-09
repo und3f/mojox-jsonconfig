@@ -1,0 +1,33 @@
+NAME
+    MojoX::JsonConfig - parse Mojolicious json config files easlier.
+
+SYNOPSIS
+        use MojoX::JsonConfig;
+
+        my $config = parse_config_file 'myapp.json';
+
+DESCRIPTION
+    MojoX::JsonConfig parses Mojolicious json config files easlier.
+
+  "parse_config"
+        my $config = parse_config($config_content);
+
+    Parse configuration from variable $config_content.
+
+  "parse_config_file"
+        my $config = parse_config_file($config_file);
+
+    Parse configuration file $config_file.
+
+SEE ALSO
+    Mojolicious::Plugin::JsonConfig
+
+AUTHOR
+    Sergey Zasenko, "undef@cpan.org".
+
+COPYRIGHT AND LICENSE
+    Copyright (C) 2011, Sergey Zasenko.
+
+    This program is free software, you can redistribute it and/or modify it
+    under the same terms as Perl 5.10.
+
