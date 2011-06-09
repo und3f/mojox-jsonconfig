@@ -46,7 +46,8 @@ __END__
 
 =head1 NAME
 
-MojoX::JsonConfig - simple parsing of L<Mojolicious> json config files.
+MojoX::JsonConfig - parse L<Mojolicious> json configuration files without web
+app.
 
 =head1 SYNOPSIS
 
@@ -56,7 +57,8 @@ MojoX::JsonConfig - simple parsing of L<Mojolicious> json config files.
 
 =head1 DESCRIPTION
 
-L<MojoX::JsonConfig> simple parsing of L<Mojolicious> json config files.
+L<MojoX::JsonConfig> parse L<Mojolicious> json configuration files without web
+app.
 
 =head2 C<parse_config>
 

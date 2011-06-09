@@ -1,5 +1,6 @@
 NAME
-    MojoX::JsonConfig - simple parsing of Mojolicious json config files.
+    MojoX::JsonConfig - parse Mojolicious json configuration files without
+    web app.
 
 SYNOPSIS
         use MojoX::JsonConfig;
@@ -7,7 +8,8 @@ SYNOPSIS
         my $config = parse_config_file 'myapp.json';
 
 DESCRIPTION
-    MojoX::JsonConfig simple parsing of Mojolicious json config files.
+    MojoX::JsonConfig parse Mojolicious json configuration files without web
+    app.
 
   "parse_config"
         my $config = parse_config($config_content);
