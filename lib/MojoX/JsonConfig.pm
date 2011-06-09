@@ -29,7 +29,7 @@ sub parse_config_file($) {
     my ($config_file) = @_;
 
     open my $fh, '<:utf8', $config_file
-      or Carp::croak q(Unable to read config file "$config_file": $!);
+      or Carp::croak qq(Unable to read config file "$config_file": $!);
 
     my $content = do {
         local $/;
